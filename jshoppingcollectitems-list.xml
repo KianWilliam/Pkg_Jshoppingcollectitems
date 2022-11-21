@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extensionset name="Packages JshoppingCollectItems" description="Packages JshoppingCollectItems">
+   <extension name="pkg_jshoppingcollectitems" element="pkg_jshoppingcollectitems" type="package" version="1.0.0" detailsurl="https://www.extensions.kwproductions121.ir/myextensions.xml"/>
+</extensionset>
