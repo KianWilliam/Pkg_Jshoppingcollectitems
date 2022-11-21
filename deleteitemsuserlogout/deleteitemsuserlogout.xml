@@ -1,0 +1,26 @@
+<extension version="3.x" type="plugin" group="user" method="upgrade">
+    <name>plg_user_deleteitemsuserlogout</name>
+	<author>KWProductions Co.</author>
+	<creationDate>Oct 2022</creationDate>
+	<copyright>Copyright (C) 2016 - 2040</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>webarchitect@kwproductions121.ir</authorEmail>
+	<authorUrl>http://www.extensions.kwproductions121.ir</authorUrl>
+	<version>1.0.0</version>
+	<scriptfile>script.php</scriptfile>
+	<description><![CDATA[Once the user logs out, the wishlist of joomshopping shall be emptied! for the good of the next users.]]></description>
+	<updateservers>
+		<server type="extension" name="user deleteitemsuserlogout updates" priority="1">http://www.extensions.kwproductions121.com/myextensions.xml</server>
+	</updateservers>
+	<files>
+		<filename plugin="deleteitemsuserlogout">deleteitemsuserlogout.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_user_deleteitemsuserlogout.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_user_deleteitemsuserlogout.sys.ini</language>
+	</languages>
+	<config>
+		
+		</config>
+	
+</extension>
