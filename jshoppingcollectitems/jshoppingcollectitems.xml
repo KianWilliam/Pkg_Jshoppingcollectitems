@@ -1,0 +1,71 @@
+<extension version="4.0.0" type="plugin" group="system" method="upgrade">
+    <name>plg_system_jshoppingcollectitems</name>
+	<author>Kian William Nowrouzian</author>
+	<creationDate>Oct 2022</creationDate>
+	<copyright>Copyright (C) 2016 - 2040</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>webarchitect@kwproductions121.ir</authorEmail>
+	<authorUrl>http://www.extensions.kwproductions121.ir</authorUrl>
+	<version>1.0.0</version>
+	<scriptfile>script.php</scriptfile>
+	<description><![CDATA[To send all items in wishlist page of joomshopping to the basket collectively, <a href='kwproductions121.ir'>Designed by Kwproductions Co.</a>]]></description>
+	<updateservers>
+		<server type="extension" name="system jshoppingcollectitems updates" priority="1">http://www.extensions.kwproductions121.ir/myextensions.xml</server>
+	</updateservers>
+	<files>
+		<filename plugin="jshoppingcollectitems">jshoppingcollectitems.php</filename>
+	  <filename>CartHelper.php</filename>
+	  	  <filename>DeleteHelper.php</filename>
+		  <folder>assets</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_jshoppingcollectitems.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_jshoppingcollectitems.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			
+			<field type="text" name="font-family" default="arial" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTFAMILY_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTFAMILY_DESC" />
+			<field type="text" name="font-size"  default="1.1" class="validate-numeric" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTSIZE_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTSIZE_DESC" />
+			
+			<field type="color" name="color" default="#fff" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_COLOR_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_COLOR_DESC" />
+			<field type="color" name="bkcolor" default="#000"  label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_BKCOLOR_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_BKCOLOR_DESC" />
+					<field
+					name="font-weight"
+					type="list"
+					label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTWEIGHT_LABEL"
+					description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTWEIGHT_DESC"
+					default="bold"
+					validate="options"
+					>
+					<option value="normal">Normal</option>
+					<option value="bold">Bold</option>
+					<option value="bolder">Bolder</option>
+				</field>
+				<field
+					name="font-style"
+					type="list"
+					label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTSTYLE_LABEL"
+					description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_FONTSTYLE_DESC"
+					default="normal"
+					validate="options"
+					>
+					<option value="normal">Normal</option>
+					<option value="italic">Italic</option>
+					
+				</field>
+			<field type="text" name="addmarginleft"   default="1" class="validate-numeric" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_ADDMARGINLEFT_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_ADDMARGINLEFT_DESC" />
+			<field type="text" name="addmorgintop"  default="1" class="validate-numeric" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_ADDMARGINTOP_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_ADDMARGINTOP_DESC" />
+			<field type="text" name="deletemarginleft"  default="1" class="validate-numeric" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_DELETEMARGINLEFT_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_DELETEMARGINLEFT_DESC" />
+			<field type="text" name="deletemargintop"  default="1" class="validate-numeric" label="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_DELETEMARGINTOP_LABEL" description="PLG_SYSTEM_JSHOPPING_COLLECT_ITEMS_DELETEMARGINTOP_DESC" />
+
+
+
+
+			
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
